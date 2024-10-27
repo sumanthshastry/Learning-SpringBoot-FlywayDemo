@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: FlywayDemo
+  datasource:
+    url: jdbc:hsqldb:mem:testdb;sql.syntax_pgs=true
+  jpa:
+    show-sql: true
+    hibernate:
+      naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
